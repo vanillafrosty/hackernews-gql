@@ -13,7 +13,15 @@ let idCount = links.length;
 const resolvers = {
   Query: {
     info: () => 'Hello World!',
-    feed: () => links
+    feed: () => links,
+    link: (root, args) => {
+      for (let i=0; i<links.length; i++) {
+        if (args.id === links[i].id) {
+          return links[i];
+        }
+      }
+      return null;
+    }
   },
 
   Mutation: {
