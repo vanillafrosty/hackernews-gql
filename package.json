@@ -1,0 +1,23 @@
+{
+  "name": "hackernews-gql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanillafrosty/hackernews-gql.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vanillafrosty/hackernews-gql/issues"
+  },
+  "homepage": "https://github.com/vanillafrosty/hackernews-gql#readme",
+  "dependencies": {
+    "graphql-yoga": "^1.14.10"
+  }
+}
